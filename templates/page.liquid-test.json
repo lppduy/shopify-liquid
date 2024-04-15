@@ -4,9 +4,16 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "custom_liquid_GJMwqL": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ page.title}}"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_GJMwqL"
   ]
 }
